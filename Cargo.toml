@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-rt-scheduler"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS rt-scheduler component - kernel_subsystem"
+
+[lib]
+name = "rt_scheduler"
+path = "src/lib.rs"
